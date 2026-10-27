@@ -1,48 +1,88 @@
-# F1-Tableau-Dashboard
-# Formula 1 Data Analysis and Visualization Using Tableau
+# F1 Race Intelligence
+
+An interactive data visualization project that explores Formula 1 racing through dashboards and visual analytics. The project presents insights into race performance, drivers, teams, circuits, and trends across multiple Formula 1 seasons.
+
+## Live Website
+
+[Visit F1 Race Intelligence](https://f1-race-intelligence-gn33.onrender.com)
 
 ## Project Overview
-This project focuses on analyzing Formula 1 racing data and presenting meaningful insights through interactive Tableau dashboards. It explores race results, team performance, circuits, and trends across multiple seasons.
 
-## Objectives
-- Analyze Formula 1 racing data to identify trends and patterns.
-- Examine race results and driver performance.
-- Compare team performance across seasons.
-- Explore circuit-related statistics.
-- Present data-driven insights through interactive visualizations.
+F1 Race Intelligence provides a visual exploration of Formula 1 data, helping users understand racing patterns, compare performance, and discover trends through interactive Tableau visualizations.
 
-## Dataset
-The dataset consists of five sheets with over 13,750 combined rows, covering:
-- 17 seasons
-- 29 circuits
-- 10 teams
+The project combines Tableau dashboards with a Flask-based website to make the visualizations accessible online.
 
-Data preparation involved cleaning missing values, transforming data, exploring patterns, and filtering relevant records for analysis.
+## Features
 
-## Tools and Technologies
-- **Tableau Public:** Dashboard development and data visualization
-- **Data Cleaning and Preparation:** Improving data quality and consistency
-- **Exploratory Data Analysis (EDA):** Identifying patterns, trends, and relationships
+- Interactive Formula 1 data visualizations
+- Tableau dashboard and story integration
+- Analysis of drivers, teams, races, and circuits
+- Exploration of historical Formula 1 trends
+- Web-based access to the project
+- User-friendly interface
 
-## Key Features
-- Interactive Formula 1 dashboards
-- Race and team performance analysis
-- Season-wise comparisons
-- Circuit-based analysis
-- Visual representation of racing trends
+## Technologies Used
 
-## Project Files
-- Tableau workbook (`.twbx` or `.twb`)
-- Dataset files, where sharing is permitted
-- Dashboard screenshots
+- Python
+- Flask
+- Tableau
+- HTML
+- CSS
+- Gunicorn
+- Render
 
-## Key Learnings
-- Data cleaning and preparation
-- Designing interactive dashboards using Tableau
-- Analyzing and interpreting real-world datasets
-- Communicating insights through data visualization
+## Visualizations
 
-## How to View the Project
-1. Download the Tableau workbook from this repository.
-2. Open the workbook using a compatible Tableau application.
-3. Explore the dashboards and visualizations.
+The project uses interactive Tableau visualizations to explore Formula 1 racing data and present performance trends in an understandable format.
+
+## How to Access
+
+1. Open the [live website](https://f1-race-intelligence-gn33.onrender.com).
+2. Explore the embedded Formula 1 dashboards and visualizations.
+3. Interact with the available charts and filters.
+
+## Run Locally
+
+1. Clone this repository:
+
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd YOUR_PROJECT_FOLDER
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the application:
+
+   ```bash
+   python app.py
+   ```
+
+5. Open the local URL displayed in the terminal.
+
+## Project Information
+
+**Project Name:** F1 Race Intelligence
+
+**Project Type:** Data Visualization and Web Development
+
+**Visualization Tool:** Tableau
+
+**Web Framework:** Flask
+
+## Live Project Link
+
+https://f1-race-intelligence-gn33.onrender.com
+
+---
+
+Exploring the world of Formula 1 through data and visualization.
